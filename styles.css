@@ -1,0 +1,194 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+
+}
+
+/* Fonts and Stylings */
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat-Bold";
+}
+
+.nav-item1:hover{
+  border-bottom:1px solid black;
+}
+
+.email-envelope{
+  content: "\2709";
+}
+
+.mobile{
+  content: "\2706";
+}
+
+strong{
+  color: black;
+}
+
+p{
+  color:rgb(0, 0, 0);
+  padding-top: 10px;
+}
+
+.headings{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1;
+}
+ 
+.section-head{
+  font-size: 3rem;
+  line-height: 1;
+  padding-top:5% ;
+}
+
+
+
+/* Navigation */
+
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+/* Title */
+
+.title-image{
+  width: 70%;
+  position: absolute;
+  right: 15%;
+}
+
+#title{
+  background-color: #2d849c;
+  color: #fff;
+  text-align: left;
+}
+
+
+/* Container */
+
+.container-fluid{
+  padding:5% 10%;
+}
+
+#title .container-fluid{
+  padding:3% 15% 7%;
+}
+
+/* download button */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+
+#features{
+  background-color:#fff;
+  position: relative;
+}
+
+.feature-box{
+  margin:0%;
+  padding: 5%;
+}
+
+/* Testimonial */
+
+#testimonials{
+  color: #fff;
+  background-color:#2d849c;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Pricing */
+
+#pricing{
+  padding:100px;
+}
+
+.pricing-column {
+  padding:3% 2%;
+}
+
+/* Media Queries */
+
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+
+/* Final Section */
+
+#final{
+background-color: #2d849c;
+color: #fff;
+text-align: center;
+}
+
+.final-heading{
+  font-family:"Montserrat-Black";
+  font-size:1.5rem;
+  line-height:1.5;
+}
+
+.finalheading{
+  font-size: 3rem;
+  color: black;
+}
+
+/* footer */
+
+.footer-icons{
+  margin: 20px 10px;
+}
+
+.footer-icons:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+.copyright{
+  color: black;
+  text-align: center;
+}
